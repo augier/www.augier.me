@@ -1,0 +1,111 @@
+/*COLORS*/
+
+@blue: 		#8DD7ED;
+@green: 	#2EB775;
+@orange: 	#EEB056;
+@red: 		#BE563C;
+@pink: 		#F26D6A;
+
+
+
+body{
+	font: 14px "Lucida Console", Monaco, monospace, sans-serif;
+	//background-color: @blue;
+	background-image: url('../img/cloud-background.png');
+	min-width: 840px;
+}
+
+div.container{
+	width: 840px;
+    margin: 0 auto;
+}
+
+div.personaldetails{
+
+	background-color: @green;
+	min-height: 40em;
+
+	div.heading{
+		
+		background-color: @orange;
+		height: 10em;
+		h2{
+			float: left;
+			padding: 2em;
+		}
+
+		img.profilepic{
+			float: right;
+			height: 10em;
+			width: 10em;
+		}
+	}
+	
+	div.main{
+		padding: 4em;
+		div.row{
+		
+			font-size: 150%;
+
+			p.label{
+				min-width: 15em;
+				display: inline-block;
+				//float: left;
+			}
+			.field{
+				display: inline-block;
+				//float: right;
+			}
+
+			a{
+				color: black;
+			}
+		}
+	}
+}
+
+div.skills{
+
+	background-color: @red;
+	min-height: 40em;
+
+	div.heading{
+		
+		background-color: @pink;
+		height: 10em;
+		h2{
+			float: left;
+			padding: 2em;
+		}
+
+		img.profilepic{
+			float: right;
+			height: 10em;
+			width: 10em;
+		}
+	}
+	
+	div.main{
+		padding: 4em;
+		div.row{
+			vertical-align: top;
+			font-size: 150%;
+
+			p.label{
+				width: 15em;
+				vertical-align: top;
+				display: inline-block;
+				//float: left;
+			}
+			.field{
+				width: 15em;
+				display: inline-block;
+				//float: right;
+			}
+
+			a{
+				color: black;
+			}
+		}
+	}
+}

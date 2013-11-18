@@ -1,0 +1,12 @@
+body{font:14px "Lucida Console",Monaco,monospace,sans-serif;background-image:url('../img/cloud-background.png');min-width:840px}
+div.container{width:840px;margin:0 auto}
+div.personaldetails{background-color:#2eb775;min-height:40em}div.personaldetails div.heading{background-color:#eeb056;height:10em}div.personaldetails div.heading h2{float:left;padding:2em}
+div.personaldetails div.heading img.profilepic{float:right;height:10em;width:10em}
+div.personaldetails div.main{padding:4em}div.personaldetails div.main div.row{font-size:150%}div.personaldetails div.main div.row p.label{min-width:15em;display:inline-block}
+div.personaldetails div.main div.row .field{display:inline-block}
+div.personaldetails div.main div.row a{color:#000}
+div.skills{background-color:#be563c;min-height:40em}div.skills div.heading{background-color:#f26d6a;height:10em}div.skills div.heading h2{float:left;padding:2em}
+div.skills div.heading img.profilepic{float:right;height:10em;width:10em}
+div.skills div.main{padding:4em}div.skills div.main div.row{vertical-align:top;font-size:150%}div.skills div.main div.row p.label{width:15em;vertical-align:top;display:inline-block}
+div.skills div.main div.row .field{width:15em;display:inline-block}
+div.skills div.main div.row a{color:#000}
