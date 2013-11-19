@@ -31,11 +31,6 @@ app.configure(function(){
 
 });
 
-var options = {
-  key: fs.readFileSync('ssl/rsi-key.pem'),
-  cert: fs.readFileSync('ssl/rsi-cert.pem')
-};
-
 app.configure('development', function(){
   app.use(express.errorHandler());
 });
@@ -45,8 +40,3 @@ var routes = require('./routes/index.js')(app);
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
-
-/*
-https.createServer(options, app).listen(app.get('secureport'), function(){
-  console.log("Express server listening on port " + app.get('secureport'));
-});*/
