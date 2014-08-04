@@ -5,7 +5,7 @@
     "augier.me",
     "www.augier.me"
   ],
-  "version": "0.0.1-20",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "node app"
